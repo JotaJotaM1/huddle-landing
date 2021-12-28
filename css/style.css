@@ -67,8 +67,8 @@ footer {
 
 @media (max-width: 480px) {
   body {
-    margin: 0;
-    padding: 0;
+    background-image: url("../img/bg-mobile.svg");
+    background-repeat: no-repeat;
   }
   main {
     margin: 0 2%;
@@ -76,7 +76,6 @@ footer {
   }
 
   .logo {
-    padding-left: 0;
     margin: 0;
     height: 50px;
   }
@@ -87,19 +86,25 @@ footer {
   img {
     display: flex;
     margin: auto;
-    width: 400px;
+    width: 350px;
   }
   article {
     text-align: center;
     width: auto;
     padding: 0;
   }
-  h1,
-  p {
+  h1 {
     margin: 30px 50px;
     padding-right: 0;
   }
 
+  p {
+    padding: 0 80px;
+    font-size: 15px;
+  }
+  .containericons {
+    margin-top: 50px;
+  }
   footer {
     display: flex;
     align-items: center;

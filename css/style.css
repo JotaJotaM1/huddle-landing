@@ -85,7 +85,9 @@ footer {
     flex-direction: column;
   }
   img {
-    width: 430px;
+    display: flex;
+    margin: auto;
+    width: 400px;
   }
   article {
     text-align: center;

@@ -115,4 +115,8 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  .fab {
+    padding: 0.8rem;
+    font-size: 10px;
+  }
 }

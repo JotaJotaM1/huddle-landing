@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("../img/bg-desktop.svg") alt= "";
+  background-image: url("../img/bg-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: hsl(257, 40%, 49%);
@@ -73,7 +73,7 @@ footer {
 
 @media (max-width: 480px) {
   body {
-    background-image: url("../img/bg-mobile.svg") alt= "";
+    background-image: url("../img/bg-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
